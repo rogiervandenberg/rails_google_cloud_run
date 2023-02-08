@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.files        = Dir["LICENSE", "README.md", "lib/**/*", "app/**/*", "config/**/*"]
 
-  spec.add_dependency "rails", "~> 6.0"
+  spec.add_dependency "rails", ">= 6.0"
   spec.add_dependency "google-cloud-tasks", "~> 2.1"
-  spec.add_dependency "googleauth", "~> 0.15"
+  spec.add_dependency "googleauth", ">= 0.15"
 end
